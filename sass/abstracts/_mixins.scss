@@ -1,0 +1,11 @@
+@mixin bg-parallax {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@mixin animate($delay: 0.1s, $duration: 0.5s) {
+  animation-delay: $delay;
+  animation-duration: $duration;
+}
