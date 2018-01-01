@@ -2474,3 +2474,15 @@ body {
 
 .about__description {
   margin-bottom: 2rem; }
+
+.work {
+  padding: 6rem 0; }
+  .work__heading {
+    margin-bottom: 4rem; }
+  .work__image-wrapper {
+    overflow: hidden; }
+    .work__image-wrapper img {
+      transition: transform 0.5s ease; }
+      .work__image-wrapper img:hover {
+        transform: scale(1.5);
+        cursor: zoom-in; }
