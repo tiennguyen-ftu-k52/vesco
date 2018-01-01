@@ -2344,7 +2344,7 @@ html {
 body {
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.5; }
 
 .btn--general {
@@ -2359,6 +2359,24 @@ body {
   .btn--white:hover, .btn--white:focus {
     background-color: #fff;
     color: #41464b; }
+
+.btn--blue {
+  border-color: #34c6d3;
+  color: #34c6d3; }
+  .btn--blue:hover, .btn--blue:focus {
+    background-color: #34c6d3;
+    color: #fff; }
+
+.heading-primary {
+  text-transform: uppercase;
+  font-size: 3.5rem; }
+  .heading-primary:after {
+    display: block;
+    height: 3px;
+    width: 5rem;
+    background-color: #34c6d3;
+    content: " ";
+    margin: 2rem auto 0; }
 
 .header__cover {
   height: 100vh;
@@ -2391,3 +2409,68 @@ body {
 .header__btn {
   animation-delay: 1s;
   animation-duration: 0.5s; }
+
+.services {
+  padding: 6rem 0; }
+  .services__heading {
+    margin-bottom: 3rem; }
+  .services__item {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    cursor: pointer; }
+    .services__item::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .services__item__icon {
+      color: #34c6d3;
+      float: left;
+      padding: 1.5rem;
+      margin-right: 1.5rem;
+      width: 7.5rem;
+      height: 7.5rem;
+      text-align: center; }
+      .services__item__icon:hover {
+        color: #fff;
+        background-color: #34c6d3; }
+    .services__item__title {
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      color: #41464b; }
+    .services__item__description {
+      margin: 0;
+      padding-left: 9rem; }
+
+.about__bg-diagonal {
+  width: 60%;
+  height: 100vh;
+  float: right;
+  background-image: url(../img/bg-about.jpg);
+  border-left: 25vh solid white;
+  border-top: 100vh solid transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.about__content-box {
+  float: left;
+  height: 100vh; }
+  .about__content-box--outer {
+    width: 100%;
+    height: 100%;
+    display: table; }
+  .about__content-box--inner {
+    display: table-cell;
+    vertical-align: middle; }
+
+.about__heading {
+  margin-bottom: 3rem;
+  text-align: left; }
+  .about__heading .heading-primary::after {
+    margin-left: 0; }
+
+.about__description {
+  margin-bottom: 2rem; }

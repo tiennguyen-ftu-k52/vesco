@@ -1,0 +1,46 @@
+.services {
+  padding: 6rem 0;
+
+  &__heading {
+    margin-bottom: 3rem;
+  }
+
+  &__content-box {
+
+  }
+
+  &__item {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    @include clearfix;
+
+    &__icon {
+      color: $color_greenish_blue;
+      float: left;
+      padding: 1.5rem;
+      margin-right: 1.5rem;
+      width: 7.5rem;
+      height: 7.5rem;
+      text-align: center;
+
+      &:hover {
+        color: $color-white;
+        background-color: $color_greenish_blue;
+      }
+    }
+
+    &__title {
+      font-size: $size_heading_3;
+      font-weight: 400;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      color: $color_steel_gray;
+    }
+
+    &__description {
+      margin: 0;
+      padding-left: 9rem;
+    }
+  }
+}

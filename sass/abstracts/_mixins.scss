@@ -9,3 +9,21 @@
   animation-delay: $delay;
   animation-duration: $duration;
 }
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin button($main-color: $color_greenish_blue, $bg-color: $color_white) {
+  border-color: $main-color;
+  color: $main-color;
+
+  &:hover, &:focus {
+    background-color: $main-color;
+    color: $bg-color;
+  }
+}

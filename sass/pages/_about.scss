@@ -1,0 +1,44 @@
+.about {
+  &__bg-diagonal {
+    width: 60%;
+    height: 100vh;
+    float: right;
+    background-image: url(../img/bg-about.jpg);
+    border-left: 25vh solid white;
+    border-top: 100vh solid transparent;
+    @include bg-parallax;
+  }
+
+  &__content-box {
+    float: left;
+    height: 100vh;
+
+    &--outer {
+      width: 100%;
+      height: 100%;
+      display: table;
+    }
+
+    &--inner {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  &__heading {
+    margin-bottom: 3rem;
+    text-align: left;
+
+    .heading-primary::after {
+      margin-left: 0;
+    }
+  }
+
+  &__description {
+    margin-bottom: 2rem;
+  }
+
+  &__btn {
+
+  }
+}
