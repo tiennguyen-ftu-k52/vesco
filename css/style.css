@@ -2625,3 +2625,31 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     color: #41464b; }
+
+.stats__cover {
+  background-image: url(../img/bg-stats.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.stats__content-box {
+  padding: 6rem 0;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.stats__heading {
+  margin-bottom: 3rem; }
+
+.stats__item {
+  padding: 10rem 0; }
+  .stats__item i {
+    color: #34c6d3; }
+  .stats__item__counter {
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1px; }
+  .stats__item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400; }

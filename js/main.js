@@ -43,3 +43,14 @@ $(function () {
     autoplayHoverPause: true
   });
 });
+
+/*  ===========================
+          STATS
+=========================== */
+$(function () {
+  $('.counter').counterUp({
+    delay: 10,
+    time: 2000,
+    beginAt: 300
+  });
+});
