@@ -1,0 +1,25 @@
+.team {
+  padding: 6rem 0;
+
+  &__heading {
+    margin-bottom: 3rem;
+  }
+
+  &__member {
+    margin: 0 1.5rem;
+
+    &__info {
+      padding-top: 3rem;
+
+      &--name {
+        font-size: $size_heading_4;
+        letter-spacing: 1px;
+      }
+
+      &--designation {
+        color: $color_greenish_blue;
+        font-style: italic;
+      }
+    }
+  }
+}

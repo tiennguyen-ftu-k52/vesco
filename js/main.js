@@ -2,7 +2,6 @@
           SERVICES
 =========================== */
 $(function () {
-  // animation on scroll
   new WOW().init();
 });
 
@@ -16,5 +15,18 @@ $(function () {
     gallery: {
       enabled: true
     }
+  });
+});
+
+/*  ===========================
+          TEAM
+=========================== */
+$(function () {
+  $('.owl-carousel').owlCarousel({
+    items: 3,
+    autoplay: true,
+    smartSpeed: 500,
+    loop: true,
+    autoplayHoverPause: true
   });
 });

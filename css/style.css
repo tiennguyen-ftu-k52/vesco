@@ -2378,6 +2378,23 @@ body {
     content: " ";
     margin: 2rem auto 0; }
 
+.social-list {
+  padding-left: 0; }
+  .social-list__item {
+    list-style: none;
+    display: inline-block;
+    width: 3.2rem;
+    height: 3.2rem;
+    margin-right: .6rem;
+    margin-top: 1rem; }
+  .social-list__icon i {
+    font-size: 1.7rem; }
+
+.icon--gray {
+  color: #41464b; }
+  .icon--gray:hover {
+    color: #34c6d3; }
+
 .header__cover {
   height: 100vh;
   background-image: url("../img/bg-home.jpg");
@@ -2443,37 +2460,36 @@ body {
       margin: 0;
       padding-left: 9rem; }
 
-.about__bg-diagonal {
-  width: 60%;
-  height: 100vh;
-  float: right;
-  background-image: url(../img/bg-about.jpg);
-  border-left: 25vh solid white;
-  border-top: 100vh solid transparent;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; }
-
-.about__content-box {
-  float: left;
-  height: 100vh; }
-  .about__content-box--outer {
-    width: 100%;
-    height: 100%;
-    display: table; }
-  .about__content-box--inner {
-    display: table-cell;
-    vertical-align: middle; }
-
-.about__heading {
-  margin-bottom: 3rem;
-  text-align: left; }
-  .about__heading .heading-primary::after {
-    margin-left: 0; }
-
-.about__description {
-  margin-bottom: 2rem; }
+.about {
+  padding: 6rem 0; }
+  .about__bg-diagonal {
+    width: 60%;
+    height: 100vh;
+    float: right;
+    background-image: url(../img/bg-about.jpg);
+    border-left: 25vh solid white;
+    border-top: 100vh solid transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; }
+  .about__content-box {
+    float: left;
+    height: 100vh; }
+    .about__content-box--outer {
+      width: 100%;
+      height: 100%;
+      display: table; }
+    .about__content-box--inner {
+      display: table-cell;
+      vertical-align: middle; }
+  .about__heading {
+    margin-bottom: 3rem;
+    text-align: left; }
+    .about__heading .heading-primary::after {
+      margin-left: 0; }
+  .about__description {
+    margin-bottom: 2rem; }
 
 .work {
   padding: 6rem 0; }
@@ -2486,3 +2502,18 @@ body {
       .work__image-wrapper img:hover {
         transform: scale(1.5);
         cursor: zoom-in; }
+
+.team {
+  padding: 6rem 0; }
+  .team__heading {
+    margin-bottom: 3rem; }
+  .team__member {
+    margin: 0 1.5rem; }
+    .team__member__info {
+      padding-top: 3rem; }
+      .team__member__info--name {
+        font-size: 2.2rem;
+        letter-spacing: 1px; }
+      .team__member__info--designation {
+        color: #34c6d3;
+        font-style: italic; }

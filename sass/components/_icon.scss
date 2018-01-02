@@ -1,0 +1,9 @@
+.icon {
+  &--gray {
+    color: $color_steel_gray;
+
+    &:hover {
+      color: $color_greenish_blue;
+    }
+  }
+}
