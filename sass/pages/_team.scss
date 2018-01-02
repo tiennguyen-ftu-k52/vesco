@@ -1,5 +1,7 @@
 .team {
-  padding: 6rem 0;
+  &__content-box {
+    padding: 6rem 0;
+  }
 
   &__heading {
     margin-bottom: 3rem;

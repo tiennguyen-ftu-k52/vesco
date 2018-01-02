@@ -1,0 +1,62 @@
+.testimonials {
+
+  &__cover {
+    background-image: url(../img/bg-testimonials.jpg);
+    @include bg-parallax;
+  }
+
+  &__content-box {
+    padding: 6rem 0;
+    background-color: rgba($color_black, 0.1);
+  }
+
+  &__customers {
+    padding: 5rem 0;
+
+    blockquote {
+      border: 0;
+      font-family: Georgia, sans-serif;
+      font-size: 1.6rem;
+      font-style: italic;
+      color: $color_white;
+      padding: 2rem 15rem;
+      position: relative;
+
+      &::before {
+        content: "\201C";
+        top: 0;
+        left: 10rem;
+        @include quotation-mark;
+      }
+
+      &::after {
+        content: "\201D";
+        bottom: 0;
+        right: 10rem;
+        @include quotation-mark;
+      }
+
+      p {
+        color: $color_white;
+        margin: 0;
+      }
+    }
+  }
+
+  &__img {
+    max-width: 15rem;
+    margin: 0 auto;
+  }
+
+  &__author {
+    color: $color_white;
+
+    &--name {
+      font-size: 1.6rem;
+    }
+
+    &--position {
+      display: block;
+    }
+  }
+}

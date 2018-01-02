@@ -2377,6 +2377,8 @@ body {
     background-color: #34c6d3;
     content: " ";
     margin: 2rem auto 0; }
+  .heading-primary--white {
+    color: #fff; }
 
 .social-list {
   padding-left: 0; }
@@ -2427,38 +2429,40 @@ body {
   animation-delay: 1s;
   animation-duration: 0.5s; }
 
-.services {
+.services__heading {
+  margin-bottom: 3rem; }
+
+.services__content-box {
   padding: 6rem 0; }
-  .services__heading {
-    margin-bottom: 3rem; }
-  .services__item {
-    padding: 2rem 0;
-    margin-bottom: 2rem;
-    cursor: pointer; }
-    .services__item::after {
-      content: "";
-      display: table;
-      clear: both; }
-    .services__item__icon {
-      color: #34c6d3;
-      float: left;
-      padding: 1.5rem;
-      margin-right: 1.5rem;
-      width: 7.5rem;
-      height: 7.5rem;
-      text-align: center; }
-      .services__item__icon:hover {
-        color: #fff;
-        background-color: #34c6d3; }
-    .services__item__title {
-      font-size: 2.5rem;
-      font-weight: 400;
-      margin-bottom: 1rem;
-      text-transform: uppercase;
-      color: #41464b; }
-    .services__item__description {
-      margin: 0;
-      padding-left: 9rem; }
+
+.services__item {
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+  cursor: pointer; }
+  .services__item::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .services__item__icon {
+    color: #34c6d3;
+    float: left;
+    padding: 1.5rem;
+    margin-right: 1.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    text-align: center; }
+    .services__item__icon:hover {
+      color: #fff;
+      background-color: #34c6d3; }
+  .services__item__title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: #41464b; }
+  .services__item__description {
+    margin: 0;
+    padding-left: 9rem; }
 
 .about {
   padding: 6rem 0; }
@@ -2491,29 +2495,89 @@ body {
   .about__description {
     margin-bottom: 2rem; }
 
-.work {
+.work__content-box {
   padding: 6rem 0; }
-  .work__heading {
-    margin-bottom: 4rem; }
-  .work__image-wrapper {
-    overflow: hidden; }
-    .work__image-wrapper img {
-      transition: transform 0.5s ease; }
-      .work__image-wrapper img:hover {
-        transform: scale(1.5);
-        cursor: zoom-in; }
 
-.team {
+.work__heading {
+  margin-bottom: 4rem; }
+
+.work__image-wrapper {
+  overflow: hidden; }
+  .work__image-wrapper img {
+    transition: transform 0.5s ease; }
+    .work__image-wrapper img:hover {
+      transform: scale(1.5);
+      cursor: zoom-in; }
+
+.team__content-box {
   padding: 6rem 0; }
-  .team__heading {
-    margin-bottom: 3rem; }
-  .team__member {
-    margin: 0 1.5rem; }
-    .team__member__info {
-      padding-top: 3rem; }
-      .team__member__info--name {
-        font-size: 2.2rem;
-        letter-spacing: 1px; }
-      .team__member__info--designation {
-        color: #34c6d3;
-        font-style: italic; }
+
+.team__heading {
+  margin-bottom: 3rem; }
+
+.team__member {
+  margin: 0 1.5rem; }
+  .team__member__info {
+    padding-top: 3rem; }
+    .team__member__info--name {
+      font-size: 2.2rem;
+      letter-spacing: 1px; }
+    .team__member__info--designation {
+      color: #34c6d3;
+      font-style: italic; }
+
+.testimonials__cover {
+  background-image: url(../img/bg-testimonials.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.testimonials__content-box {
+  padding: 6rem 0;
+  background-color: rgba(0, 0, 0, 0.1); }
+
+.testimonials__customers {
+  padding: 5rem 0; }
+  .testimonials__customers blockquote {
+    border: 0;
+    font-family: Georgia, sans-serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #fff;
+    padding: 2rem 15rem;
+    position: relative; }
+    .testimonials__customers blockquote::before {
+      content: "\201C";
+      top: 0;
+      left: 10rem;
+      font-size: 8rem;
+      font-style: normal;
+      line-height: 1;
+      width: 3rem;
+      height: 3rem;
+      position: absolute; }
+    .testimonials__customers blockquote::after {
+      content: "\201D";
+      bottom: 0;
+      right: 10rem;
+      font-size: 8rem;
+      font-style: normal;
+      line-height: 1;
+      width: 3rem;
+      height: 3rem;
+      position: absolute; }
+    .testimonials__customers blockquote p {
+      color: #fff;
+      margin: 0; }
+
+.testimonials__img {
+  max-width: 15rem;
+  margin: 0 auto; }
+
+.testimonials__author {
+  color: #fff; }
+  .testimonials__author--name {
+    font-size: 1.6rem; }
+  .testimonials__author--position {
+    display: block; }

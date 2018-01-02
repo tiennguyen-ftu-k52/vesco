@@ -27,3 +27,12 @@
     color: $bg-color;
   }
 }
+
+@mixin quotation-mark {
+  font-size: 8rem;
+  font-style: normal;
+  line-height: 1;
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+}

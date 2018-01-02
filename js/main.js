@@ -22,8 +22,21 @@ $(function () {
           TEAM
 =========================== */
 $(function () {
-  $('.owl-carousel').owlCarousel({
+  $('.team__members').owlCarousel({
     items: 3,
+    autoplay: true,
+    smartSpeed: 500,
+    loop: true,
+    autoplayHoverPause: true
+  });
+});
+
+/*  ===========================
+          TESTIMONIALS
+=========================== */
+$(function () {
+  $('.testimonials__customers').owlCarousel({
+    items: 1,
     autoplay: true,
     smartSpeed: 500,
     loop: true,
