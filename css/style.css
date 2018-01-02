@@ -2581,3 +2581,47 @@ body {
     font-size: 1.6rem; }
   .testimonials__author--position {
     display: block; }
+
+.pricing__content-box {
+  padding: 6rem 0; }
+
+.pricing__heading {
+  margin-bottom: 3rem; }
+
+.pricing__box {
+  border: 3px solid #34c6d3;
+  padding: 5rem 0;
+  margin: 4rem 0; }
+  .pricing__box--lg {
+    padding: 9rem 0;
+    margin: 0;
+    background-color: #34c6d3; }
+    .pricing__box--lg .pricing__title {
+      color: #34c6d3;
+      background-color: #fff; }
+    .pricing__box--lg .pricing__spec li p {
+      color: #fff; }
+
+.pricing__title {
+  background-color: #34c6d3;
+  color: white;
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-bottom: 3rem; }
+
+.pricing__value {
+  font-size: 3.5rem; }
+  .pricing__value sup {
+    font-size: 2.8rem;
+    font-weight: normal; }
+
+.pricing__spec {
+  list-style: none;
+  padding-left: 0;
+  margin: 2rem 0 6rem; }
+  .pricing__spec li p {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #41464b; }
