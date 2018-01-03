@@ -2397,6 +2397,11 @@ body {
   .icon--gray:hover {
     color: #34c6d3; }
 
+.icon--white {
+  color: #fff; }
+  .icon--white:hover {
+    color: #34c6d3; }
+
 .header__cover {
   height: 100vh;
   background-image: url("../img/bg-home.jpg");
@@ -2656,3 +2661,40 @@ body {
 
 .clients__content-box {
   padding: 6rem 0; }
+
+.contact {
+  background-color: #41464b;
+  padding: 6rem 0;
+  border-top: 5px solid rgba(0, 0, 0, 0.1); }
+  .contact__info {
+    color: #fff; }
+    .contact__info__title {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase; }
+    .contact__info__general {
+      background-image: url(../img/world-map.png);
+      background-repeat: no-repeat;
+      background-size: contain; }
+    .contact__info__intro {
+      margin-bottom: 3rem; }
+    .contact__info__address, .contact__info__phone {
+      margin-bottom: 3rem; }
+      .contact__info__address p, .contact__info__phone p {
+        margin-bottom: 0; }
+        .contact__info__address p strong, .contact__info__phone p strong {
+          letter-spacing: 1px; }
+  .contact__form {
+    color: #fff; }
+    .contact__form__title {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      text-transform: uppercase; }
+    .contact__form .form-control {
+      background: transparent;
+      border-radius: 0;
+      border-color: #fff;
+      font-size: 1.4rem;
+      padding: 0.8rem 1.6rem;
+      margin-bottom: 2rem;
+      color: #fff; }

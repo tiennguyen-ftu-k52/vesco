@@ -1,0 +1,57 @@
+.contact {
+  background-color: $color_steel_gray;
+  padding: 6rem 0;
+  border-top: 5px solid rgba($color_black, 0.1);
+
+  &__info {
+    color: $color_white;
+
+    &__title {
+      font-size: $size_heading_4;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    &__general {
+      background-image: url(../img/world-map.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+    &__intro {
+      margin-bottom: 3rem;
+    }
+
+    &__address, &__phone {
+      margin-bottom: 3rem;
+
+      p {
+        margin-bottom: 0;
+
+        strong {
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+
+  &__form {
+    color: #fff;
+
+    &__title {
+      font-size: $size_heading_4;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    .form-control {
+      background: transparent;
+      border-radius: 0;
+      border-color: $color_white;
+      font-size: $size_default_font;
+      padding: 0.8rem 1.6rem;
+      margin-bottom: 2rem;
+      color: #fff;
+    }
+  }
+}

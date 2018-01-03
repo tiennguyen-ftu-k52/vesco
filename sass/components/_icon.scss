@@ -6,4 +6,12 @@
       color: $color_greenish_blue;
     }
   }
+
+  &--white {
+    color: $color_white;
+
+    &:hover {
+      color: $color_greenish_blue;
+    }
+  }
 }
