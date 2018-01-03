@@ -2653,3 +2653,6 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-weight: 400; }
+
+.clients__content-box {
+  padding: 6rem 0; }

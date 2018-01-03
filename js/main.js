@@ -38,7 +38,7 @@ $(function () {
   $('.testimonials__customers').owlCarousel({
     items: 1,
     autoplay: true,
-    smartSpeed: 500,
+    smartSpeed: 700,
     loop: true,
     autoplayHoverPause: true
   });
@@ -52,5 +52,18 @@ $(function () {
     delay: 10,
     time: 2000,
     beginAt: 300
+  });
+});
+
+/*  ===========================
+          CLIENTS
+=========================== */
+$(function () {
+  $('.clients__list').owlCarousel({
+    items: 6,
+    autoplay: true,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true
   });
 });
