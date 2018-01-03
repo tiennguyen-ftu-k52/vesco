@@ -1,0 +1,36 @@
+.footer {
+  padding: 3rem 0;
+  background-color: rgba($color_black, 0.8);
+  color: $color_white;
+
+  &__copyright {
+    p {
+      margin: 0;
+    }
+  }
+
+  &__menu {
+    float: left;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+
+        a {
+          color: #fff;
+          font-size: 1.2rem;
+          margin: 0 1rem;
+          text-decoration: none;
+
+          &:hover {
+            color: $color_greenish_blue;
+          }
+        }
+      }
+    }
+  }
+}
