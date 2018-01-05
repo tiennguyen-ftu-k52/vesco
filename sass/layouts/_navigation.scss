@@ -1,0 +1,38 @@
+.vesco-navbar {
+
+  &.navbar {
+    transition: all 0.3s;
+  }
+
+  &.navbar.scrollable {
+    background-color: rgba($color_black, 0.7);
+  }
+
+  .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .navbar-toggler {
+    border: 1px solid $color_white;
+
+    .navbar-toggler-icon {
+      color: $color_white;
+    }
+  }
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $color_white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 1.5rem 1rem;
+
+        &:hover, &.active {
+          color: $color_greenish_blue;
+        }
+      }
+    }
+  }
+}

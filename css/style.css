@@ -2367,6 +2367,15 @@ body {
     background-color: #34c6d3;
     color: #fff; }
 
+.btn--back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  font-size: 2.2rem;
+  padding: 3px 1.5rem;
+  border-radius: 0;
+  display: none; }
+
 .heading-primary {
   text-transform: uppercase;
   font-size: 3.5rem; }
@@ -2400,6 +2409,29 @@ body {
 .icon--white {
   color: #fff; }
   .icon--white:hover {
+    color: #34c6d3; }
+
+.vesco-navbar.navbar {
+  transition: all 0.3s; }
+
+.vesco-navbar.navbar.scrollable {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.vesco-navbar .container-fluid {
+  padding-left: 2rem;
+  padding-right: 2rem; }
+
+.vesco-navbar .navbar-toggler {
+  border: 1px solid #fff; }
+  .vesco-navbar .navbar-toggler .navbar-toggler-icon {
+    color: #fff; }
+
+.vesco-navbar .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1.5rem 1rem; }
+  .vesco-navbar .navbar-nav .nav-item .nav-link:hover, .vesco-navbar .navbar-nav .nav-item .nav-link.active {
     color: #34c6d3; }
 
 .footer {
