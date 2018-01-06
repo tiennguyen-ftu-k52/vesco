@@ -7,3 +7,6 @@
 
 ## Run (in another terminal window): 
 ```npm run dev```
+
+## Screenshot
+![Screenshot](img/screenshot.png)
