@@ -9,4 +9,4 @@
 ```npm run dev```
 
 ## Screenshot
-![Screenshot](img/screenshot.png)
+![Screenshot](/img/screenshot.png)
