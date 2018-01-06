@@ -35,4 +35,19 @@
       }
     }
   }
+
+  @media (max-width: 991px) {
+    &.navbar {
+      background-color: rgba($color_black, 0.7);
+      padding: 1rem;
+    }
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding: 1rem;
+        }
+      }
+    }
+  }
 }

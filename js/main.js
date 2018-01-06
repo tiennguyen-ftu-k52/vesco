@@ -28,6 +28,20 @@ $(function() {
     smartSpeed: 500,
     loop: true,
     autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      576: {
+        items: 2
+      },
+      768: {
+        items: 2
+      },
+      992: {
+        items: 3
+      }
+    }
   });
 });
 
@@ -65,6 +79,17 @@ $(function() {
     smartSpeed: 700,
     loop: true,
     autoplayHoverPause: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      576: {
+        items: 3
+      },
+      768: {
+        items: 5
+      }
+    }
   });
 });
 
@@ -104,5 +129,12 @@ $(function() {
         window.location.hash = section;
       }
     );
+  });
+});
+
+// Close mobile menu on click
+$(function() {
+  $('.navbar-collapse .nav-item .nav-link').on('click touch', function () {
+    $('button.navbar-toggler').click();
   });
 });

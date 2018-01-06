@@ -29,6 +29,10 @@
           &:hover {
             color: $color_greenish_blue;
           }
+
+          &:first-of-type {
+            margin: 0 1rem 0 0;
+          }
         }
       }
     }

@@ -40,6 +40,18 @@
         color: $color_white;
         margin: 0;
       }
+
+      @media (max-width: 767px) {
+        padding: 2rem 6rem;
+
+        &::before {
+          left: 3rem;
+        }
+
+        &::after {
+          right: 3rem;
+        }
+      }
     }
   }
 

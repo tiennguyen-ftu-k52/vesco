@@ -9,6 +9,12 @@
     border-left: 25vh solid white;
     border-top: 100vh solid transparent;
     @include bg-parallax;
+
+    @media (max-width: 576px) {
+      width: 100%;
+      display: block;
+      float: none;
+    }
   }
 
   &__content-box {

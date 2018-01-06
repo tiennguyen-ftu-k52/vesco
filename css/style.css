@@ -2340,6 +2340,9 @@ body {
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 576px) {
+    html {
+      font-size: 50%; } }
 
 body {
   font-family: "Montserrat", "Arial", sans-serif;
@@ -2434,6 +2437,13 @@ body {
   .vesco-navbar .navbar-nav .nav-item .nav-link:hover, .vesco-navbar .navbar-nav .nav-item .nav-link.active {
     color: #34c6d3; }
 
+@media (max-width: 991px) {
+  .vesco-navbar.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1rem; }
+  .vesco-navbar .navbar-nav .nav-item .nav-link {
+    padding: 1rem; } }
+
 .footer {
   padding: 3rem 0;
   background-color: rgba(0, 0, 0, 0.8);
@@ -2455,6 +2465,8 @@ body {
           text-decoration: none; }
           .footer__menu ul li a:hover {
             color: #34c6d3; }
+          .footer__menu ul li a:first-of-type {
+            margin: 0 1rem 0 0; }
 
 .header__cover {
   height: 100vh;
@@ -2536,6 +2548,11 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed; }
+    @media (max-width: 576px) {
+      .about__bg-diagonal {
+        width: 100%;
+        display: block;
+        float: none; } }
   .about__content-box {
     float: left;
     height: 100vh; }
@@ -2629,6 +2646,13 @@ body {
     .testimonials__customers blockquote p {
       color: #fff;
       margin: 0; }
+    @media (max-width: 767px) {
+      .testimonials__customers blockquote {
+        padding: 2rem 6rem; }
+        .testimonials__customers blockquote::before {
+          left: 3rem; }
+        .testimonials__customers blockquote::after {
+          right: 3rem; } }
 
 .testimonials__img {
   max-width: 15rem;
