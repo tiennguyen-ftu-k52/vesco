@@ -10,16 +10,21 @@
     border-top: 100vh solid transparent;
     @include bg-parallax;
 
-    @media (max-width: 576px) {
-      width: 100%;
-      display: block;
-      float: none;
+    @media (max-width: 767px) {
+      display: none;
     }
   }
 
   &__content-box {
     float: left;
     height: 100vh;
+
+    @media (max-width: 767px) {
+      float: none;
+      height: auto;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
 
     &--outer {
       width: 100%;
